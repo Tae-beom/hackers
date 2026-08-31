@@ -15,7 +15,7 @@ st.markdown("""
         overflow-y: scroll !important;
     }
     
-    .block-container { max-width: 800px; }
+    .block-container { max-width: 800px; min-height: 101vh; }
     .word-box {
         background-color: #A6C8E6; 
         color: black;
