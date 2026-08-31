@@ -10,6 +10,11 @@ st.set_page_config(page_title="해커스 보카 유의어 퀴즈", layout="cente
 # --- UI 스타일링 (CSS) ---
 st.markdown("""
     <style>
+    /* 🔥 화면 밀림 방지: 오른쪽 스크롤바 자리를 항상 고정시킵니다. */
+    [data-testid="stAppViewContainer"] {
+        overflow-y: scroll !important;
+    }
+    
     .block-container { max-width: 800px; }
     .word-box {
         background-color: #A6C8E6; 
