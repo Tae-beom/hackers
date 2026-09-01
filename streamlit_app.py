@@ -68,8 +68,8 @@ st.markdown("""
 # --- 📌 단어장 파일 목록 설정 ---
 voca_files = {
     "Day 2 (해커스 보카)": "vocafile/Hackers_Voca_Day2_with_Synonyms.xlsx",
-    "Day 2A (해커스 보카)": "vocafile/Hackers_Voca_Day2_1-23",
-    "Day 2B (해커스 보카)": "vocafile/Hackers_Voca_Day2_24-56"
+    "Day 2A (해커스 보카)": "vocafile/Hackers_Voca_Day2_1-23.xlsx",
+    "Day 2B (해커스 보카)": "vocafile/Hackers_Voca_Day2_24-56.xlsx"
     # 나중에 추가할 파일명은 여기에 적어주세요.
 }
 
