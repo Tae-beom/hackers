@@ -15,16 +15,16 @@ st.markdown("""
         overflow-y: scroll !important;
     }
     
-    .block-container { max-width: 800px; min-height: 101vh; }
+    .block-container { max-width: 800px; min-height: 101vh; padding-top: 2rem; }
     .word-box {
         background-color: #A6C8E6; 
         color: black;
-        padding: 50px;
+        padding: 30px;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
         border-radius: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
         width: 100%; 
     }
@@ -33,7 +33,7 @@ st.markdown("""
     div.stButton > button {
         background-color: #FFF9A6 !important; 
         color: black !important;
-        min-height: 100px !important; 
+        min-height: 70px !important; 
         height: auto !important; 
         width: 100% !important; 
         border: 1px solid #ccc !important;
@@ -49,7 +49,7 @@ st.markdown("""
         border: 1px solid #999 !important;
     }
     div.stButton > button * {
-        font-size: 26px !important; 
+        font-size: 22px !important; 
         white-space: normal !important; 
         word-wrap: break-word !important; 
         text-align: center !important; 
@@ -59,8 +59,8 @@ st.markdown("""
         text-align: center;
         font-size: 24px;
         font-weight: bold;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
     </style>
 """, unsafe_allow_html=True)
