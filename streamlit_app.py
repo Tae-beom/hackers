@@ -19,7 +19,7 @@ st.markdown("""
     .word-box {
         background-color: #A6C8E6; 
         color: black;
-        padding: 30px;
+        padding: 25px;
         text-align: center;
         font-size: 40px;
         font-weight: bold;
