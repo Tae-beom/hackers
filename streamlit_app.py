@@ -182,7 +182,7 @@ if os.path.exists(file_path):
         # 🔥 수정된 부분: 점수와 진행 번호를 직관적으로 표시
         st.subheader(f"🏆 정답: {st.session_state.score}개 (진행: {current_q_num} / {st.session_state.total_questions})")
         
-        st.markdown(f"<div class='word-box'>{st.session_state.current_word} <span style='font-size: 35px;'>({st.session_state.current_meaning})</span></div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='word-box'>{st.session_state.current_word} <span style='font-size: 25px; font-weight: normal;'>({st.session_state.current_meaning})</span></div>", unsafe_allow_html=True)
         
         col1, col2, col3 = st.columns(3)
         with col1:
