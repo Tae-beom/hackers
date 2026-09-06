@@ -121,6 +121,7 @@ def generate_question(df):
     random.shuffle(options)
     
     st.session_state.current_word = word
+    st.session_state.current_meaning = correct_row['한글 뜻']  # 🔥 엑셀에서 한글 뜻을 가져와 저장!
     st.session_state.correct_answer = correct_synonym
     st.session_state.options = options
     st.session_state.answered = False
