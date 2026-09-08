@@ -121,6 +121,7 @@ def generate_question(df):
     random.shuffle(options)
     
     st.session_state.current_word = word
+    st.session_state.current_meaning = correct_row['한글 뜻']  # 🔥 엑셀에서 한글 뜻을 가져와 저장!
     st.session_state.correct_answer = correct_synonym
     st.session_state.options = options
     st.session_state.answered = False
@@ -181,7 +182,7 @@ if os.path.exists(file_path):
         # 🔥 수정된 부분: 점수와 진행 번호를 직관적으로 표시
         st.subheader(f"🏆 정답: {st.session_state.score}개 (진행: {current_q_num} / {st.session_state.total_questions})")
         
-        st.markdown(f"<div class='word-box'>{st.session_state.current_word}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='word-box'>{st.session_state.current_word} <span style='font-size: 20px; font-weight: normal;'>({st.session_state.current_meaning})</span></div>", unsafe_allow_html=True)
         
         col1, col2, col3 = st.columns(3)
         with col1:
