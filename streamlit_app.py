@@ -69,8 +69,8 @@ st.markdown("""
 voca_files = {
     "Day 2 (해커스 보카)": "vocafile/Hackers_Voca_Day2_with_Synonyms.xlsx",
     "Day 3 (해커스 보카)": "vocafile/Hackers_Voca_Day3_with_Synonyms.xlsx",
-    "Day 5A (해커스 보카)": "vocafile/Hackers_Voca_Day5_1-10.xlsx",
     "Day 4 (해커스 보카)": "vocafile/Hackers_Voca_Day4_with_Synonyms.xlsx",
+    "Day 5A (해커스 보카)": "vocafile/Hackers_Voca_Day5_1-10.xlsx",
     "Day 5 (해커스 보카)": "vocafile/Hackers_Voca_Day5_with_Synonyms.xlsx"
     # 나중에 추가할 파일명은 여기에 적어주세요.
 }
