@@ -72,6 +72,7 @@ voca_files = {
     "Day 4 (해커스 보카)": "vocafile/Hackers_Voca_Day4_with_Synonyms.xlsx",
     "Day 5 (해커스 보카)": "vocafile/Hackers_Voca_Day5_with_Synonyms.xlsx",
     "Day 6 (해커스 보카)": "vocafile/Hackers_Voca_Day6_with_Synonyms.xlsx",
+    "Day 7 (해커스 보카)": "vocafile/Hackers_Voca_Day7_with_Synonyms.xlsx",
     # 나중에 추가할 파일명은 여기에 적어주세요.
 }
 
